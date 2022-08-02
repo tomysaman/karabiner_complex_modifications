@@ -9,12 +9,12 @@
 	"_comment_dummy_1.0.1": "**********************************************************************************************************************************",
 
 	"title": "Tomy's base rules",
-	"url": "https://github.com/tomysaman/karabiner_complex_modifications",
+	"url": "https://github.com/tomysaman/karabiner_complex_modifications/tomy_base.json",
 	"version": "1.0.0",
 	"author": "Tomy Saman (tomywutoto@gmail.com)",
 	"website": "https://github.com/tomysaman",
-	"json_url": "TBC - https://xxx.com/tomy_base.json",
-	"import_url": "TBC - karabiner://karabiner/assets/complex_modifications/import?url=https://xxx.com/tomy_base.json",
+	"json_url": "https://raw.githubusercontent.com/tomysaman/karabiner_complex_modifications/master/complex_modifications/tomy_base.json",
+	"import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/tomysaman/karabiner_complex_modifications/master/complex_modifications/tomy_base.json",
 	"gallery_url": "https://ke-complex-modifications.pqrs.org/#personal-settings",
 	"repo": "https://github.com/tomysaman/karabiner_complex_modifications",
 	"rules": [
