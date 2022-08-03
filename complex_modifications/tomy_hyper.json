@@ -341,5 +341,393 @@
 			]
 		}
 
+		,
+
+		{
+			"_comment_dummy_2.0.0": "**************************************************************************************************",
+			"description": 			"[Hyper] + WASD or IJKL as arrow keys",
+			"_comment_dummy_2.0.1": "**************************************************************************************************",
+			"manipulators": [
+				{
+					"description": "Hyper + W = Up",
+					"type": "basic",
+					"from": {
+						"key_code": "w",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "up_arrow"
+						}
+					]
+				},
+				{
+					"description": "Hyper + A = Left",
+					"type": "basic",
+					"from": {
+						"key_code": "a",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "left_arrow"
+						}
+					]
+				},
+				{
+					"description": "Hyper + S = Down",
+					"type": "basic",
+					"from": {
+						"key_code": "s",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "down_arrow"
+						}
+					]
+				},
+				{
+					"description": "Hyper + D = Right",
+					"type": "basic",
+					"from": {
+						"key_code": "d",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "right_arrow"
+						}
+					]
+				},
+				{
+					"description": "Hyper + I = Up",
+					"type": "basic",
+					"from": {
+						"key_code": "i",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "up_arrow"
+						}
+					]
+				},
+				{
+					"description": "Hyper + J = Left",
+					"type": "basic",
+					"from": {
+						"key_code": "j",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "left_arrow"
+						}
+					]
+				},
+				{
+					"description": "Hyper + K = Down",
+					"type": "basic",
+					"from": {
+						"key_code": "k",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "down_arrow"
+						}
+					]
+				},
+				{
+					"description": "Hyper + L = Right",
+					"type": "basic",
+					"from": {
+						"key_code": "l",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "right_arrow"
+						}
+					]
+				}
+			]
+		}
+
+		,
+
+		{
+			"_comment_dummy_2.0.0": "**************************************************************************************************",
+			"description": 			"[Hyper] + Q/E or U/O as Home/End ***** [Hyper] + R/F or P/; as PageUp/PageDown",
+			"_comment_dummy_2.0.1": "**************************************************************************************************",
+			"manipulators": [
+				{
+					"description": "Hyper + Q = Home",
+					"type": "basic",
+					"from": {
+						"key_code": "q",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "home"
+						}
+					]
+				},
+				{
+					"description": "Hyper + E = End",
+					"type": "basic",
+					"from": {
+						"key_code": "e",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "end"
+						}
+					]
+				},
+				{
+					"description": "Hyper + U = Home",
+					"type": "basic",
+					"from": {
+						"key_code": "u",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "home"
+						}
+					]
+				},
+				{
+					"description": "Hyper + O = End",
+					"type": "basic",
+					"from": {
+						"key_code": "o",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "end"
+						}
+					]
+				},
+				{
+					"description": "Hyper + R = PageUp",
+					"type": "basic",
+					"from": {
+						"key_code": "r",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "page_up"
+						}
+					]
+				},
+				{
+					"description": "Hyper + F = PageDown",
+					"type": "basic",
+					"from": {
+						"key_code": "f",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "page_down"
+						}
+					]
+				},
+				{
+					"description": "Hyper + P = PageUp",
+					"type": "basic",
+					"from": {
+						"key_code": "p",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "page_up"
+						}
+					]
+				},
+				{
+					"description": "Hyper + ; = PageDown",
+					"type": "basic",
+					"from": {
+						"key_code": "semicolon",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "page_down"
+						}
+					]
+				}
+			]
+		}
+
 	]
 }
