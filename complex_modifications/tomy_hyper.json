@@ -55,5 +55,291 @@
 			]
 		}
 
+		,
+
+		{
+			"_comment_dummy_2.0.0": "**************************************************************************************************",
+			"description": 			"[Hyper] + 1 to 12 = F1 to F12",
+			"_comment_dummy_2.0.1": "**************************************************************************************************",
+			"manipulators": [
+				{
+					"description": "Hyper + 1 = F1 (display brightness down)",
+					"type": "basic",
+					"from": {
+						"key_code": "1",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "display_brightness_decrement"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 2 = F2 (display brightness up)",
+					"type": "basic",
+					"from": {
+						"key_code": "2",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "display_brightness_increment"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 3 = F3 (mission control)",
+					"type": "basic",
+					"from": {
+						"key_code": "3",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "mission_control"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 4 = F4 (launchpad)",
+					"type": "basic",
+					"from": {
+						"key_code": "4",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "launchpad"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 5 = F5 (keyboard brightness down)",
+					"type": "basic",
+					"from": {
+						"key_code": "5",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "illumination_down"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 6 = F6 (keyboard brightness up)",
+					"type": "basic",
+					"from": {
+						"key_code": "6",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "illumination_up"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 7 = F7 (previous track)",
+					"type": "basic",
+					"from": {
+						"key_code": "7",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "rewind"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 8 = F8 (play/pause)",
+					"type": "basic",
+					"from": {
+						"key_code": "8",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "play_or_pause"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 9 = F9 (next track)",
+					"type": "basic",
+					"from": {
+						"key_code": "9",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "fastforward"
+						}
+					]
+				},
+				{
+					"description": "Hyper + 0 = F10 (mute)",
+					"type": "basic",
+					"from": {
+						"key_code": "0",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "mute"
+						}
+					]
+				},
+				{
+					"description": "Hyper + - = F11 (volume down)",
+					"type": "basic",
+					"from": {
+						"key_code": "hyphen",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "volume_decrement"
+						}
+					]
+				},
+				{
+					"description": "Hyper + = = F12 (volume up)",
+					"type": "basic",
+					"from": {
+						"key_code": "equal_sign",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "volume_increment"
+						}
+					]
+				}
+			]
+		}
+
 	]
 }
