@@ -1,4 +1,4 @@
-# Mac Dev Setup Guide
+# Karabiner-Elements complex modification rules
 
 My personal Karabiner-Elements (KE for short) complex modification rules.
 
