@@ -116,5 +116,66 @@
 			]
 		}
 
+		,
+
+		{
+			"_comment_dummy_2.0.0": "**************************************************************************************************",
+			"description": 			"[BASE] ScreenLock key to start dictation",
+			"_comment_dummy_2.0.1": "**************************************************************************************************",
+			"manipulators": [
+				{
+					"description": "ScrLck = Globe key twice (Start a dictation)",
+					"type": "basic",
+					"from": {
+						"key_code": "scroll_lock",
+						"modifiers": {
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "fn"
+						},
+						{
+							"key_code": "fn"
+						}
+					]
+				}
+			]
+		}
+
+		,
+
+		{
+			"_comment_dummy_2.0.0": "**************************************************************************************************",
+			"description": 			"[BASE] Pause key to lock screen",
+			"_comment_dummy_2.0.1": "**************************************************************************************************",
+			"manipulators": [
+				{
+					"description": "Pause/PageBreak = Ctrl + Cmd + Q (Lock screen)",
+					"type": "basic",
+					"from": {
+						"key_code": "pause",
+						"modifiers": {
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "q",
+							"modifiers": [
+								"left_command",
+								"left_control"
+							]
+						}
+					]
+				}
+			]
+		}
+
 	]
 }
