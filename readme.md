@@ -76,7 +76,7 @@ Defines rules that useful for 60% and 65% keyboards.
   - Instead of FN + ESC to output grave accent (`), which usually need two hands, you can do it with one hand with Ctrl + ESC
 - `Shift` + `Esc` -> `~`
   - Shift + ESC to output Tilde (~)
-  - This rules is useful when there is no grave accent (`) & tilde (~) key on 60%/65% keyboard. So instead of FN + Shift + Esc to out put tilde (~) you can just use Shift + Esc
+  - This rules is useful when there is no grave accent (`) & tilde (~) key on 60%/65% keyboard. So instead of FN + Shift + Esc to out put tilde you can just use Shift + Esc
 
 # My rules for specific keyboards
 
