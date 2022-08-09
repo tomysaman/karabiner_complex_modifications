@@ -25,7 +25,7 @@ Q: How do I find out my keyboard device vendorID and productID?
 
 ## tomy_base.json
 Defines the base rules that useful for any kind of keyboards.
-- CMD `<->` OPT
+- `CMD` <-> `OPT`
   - Swap Command and Option keys
 - PrtScr `->` Screen capture
   - PrintScreen key does not work in Mac, so we re-define it to bring up Mac built in screen capture tool
