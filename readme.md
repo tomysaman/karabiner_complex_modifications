@@ -5,15 +5,15 @@ My personal Karabiner-Elements (KE for short) complex modification rules.
 To use, place the json files in `complex_modifications` folder into your KB rules folder below, and then add them in the KE Preferences -> Complex Modifications.
 > `~/.config/karabiner/assets/complex_modifications/`
 
-## Documentations
+# Documentations
 
 [Karabiner-Elements documentation](https://karabiner-elements.pqrs.org/docs/)
 
-## Notes
+# Notes
 
 If you swap Option key and Command key mapping in your MacOS keyboard setting for KE keyboard ("Karabiner DriverKit VirtualHIDKeyboard"), for KE to trigger Command key you will have to send Option key code, and for KE to trigger Option key you will have to send Command key code. For json files in this repo to work, you should NOT swap CMD and OPT keys.
 
-## FAQs
+# FAQs
 
 Q: My changes in json file doesn't work?
 > A: KE currently does not have a way to pick up changes in rule json files. You will need to manually remove the rules from within KE and then add them again.
@@ -21,8 +21,74 @@ Q: My changes in json file doesn't work?
 Q: How do I find out my keyboard device vendorID and productID?
 > A: Open Karabiner Event Viewer and go to the Device tab, you can find the info there.
 
-## Key Codes
+# My rules
+
+## tomy_base.json
+Defines the base rules that useful for any kind of keyboards.
+- CMD `<->` OPT
+  - Swap Command and Option keys
+- PrtScr `->` Screen capture
+  - PrintScreen key does not work in Mac, so we re-define it to bring up Mac built in screen capture tool
+- ScrLck `->` Dictation
+  - ScrollLock key does not work in Mac, so we re-define it to start dictation
+- Pause `->` Lock screen
+  - Pause/PageBreak key does not work in Mac, so we re-define it to lock your screen
+
+## tomy_hyper.json
+Defines the rules for Hyper key which can give you a 2nd layer of keyboard layout for various functionality.
+- CapsLock `->` Hyper = Ctrl + Cmd + Opt + Shift
+	- Defines CapsLock key as Hyper key (which is Control + Command + Option + Shift)
+	- If you hold down CapsLock then you are triggering the Hyper key
+	- If you press CapsLock once only (tap it), then it works normally as CapsLock
+- Hyper + 1 `->` F1, Hyper + 2 `->` F2, ... Hyper + 0 `->` F10, Hyper + dash (-) `->` F11, and Hyper + equal (=) `->` F12
+  - Defines F1 - F12 with the number row keys
+- Hyper + Esc `->` grave accent (`) & tilde (~) key
+  - A very common 60% keyboard mapping to use Esc key as Delete key
+- Hyper + WASD `->` arrow keys
+  - W = Up, A = Left, S = Down, D = Right
+- Hyper + IJKL `->` arrow keys
+  - I = Up, J = Left, K = Down, L = Right
+- Hyper + Q `->` Home and Hyper + E `->` End
+- Hyper + U `->` Home and Hyper + O `->` End
+  - The 2 rules above define the two keys around WASD & IJKL as Home key and End key 
+- Hyper + R `->` PgUp and Hyper + F `->` PgDn
+- Hyper + P `->` PgUp and Hyper + semi-column (;) `->` PgDn
+  - The 2 rules above define the two keys on the right side of WASD & IJKL as PageUp key and PageDown key
+- Hyper + G `->` Delete and Hyper + H `->` Backspace
+  - This defines the keys next to your "home key markers" (F key and J key) as Delete key and Backspace key, with the one on the left (G key) being Delete key and the one on the right (H key) being Backspace key
+- Hyper + Backspace `->` Delete
+  - A very common 60% keyboard mapping to use Backspace key as Delete key
+- Hyper + Z `->` Mute, Hyper + X `->` Volume-, and Hyper + C `->` Volume+
+- Hyper + , `->` Mute, Hyper + . `->` Volume-, and Hyper + / `->` Volume+
+  - The 2 rules above define the 3 keys to the side of left shift and right shift to be volume controls
+- Hyper + V `->` PreviousTrack, Hyper + B `->` Play/Pause, and Hyper + N `->` NextTrack
+  - This rules defines the 3 keys below the two "home key markers" (F key and J key) to be media playback controls
+- Hyper + open bracket ([) `->` Screen Capture, Hyper + close bracket (]) `->` Start Dictation, and Hyper + back slash (\\) `->` Lock Screen
+  - This defines the 3 keys to the right of P key to "works" likes PrintScreen, ScrollLock, and Pause keys. In my base rules they are Screen Capturing key, Start Dictation key, and Lock Screen key respectively
+
+## tomy_60_percent.json
+Defines rules that useful for 60% and 65% keyboards.
+- Insert `->` `
+  - Insert key is mapped to grave accent (`) & tilde (~) key
+  - Some 65% keyboards have insert key but no grave accent (`) & tilde (~) key. I need this rule as I use grave accent key much more often than insert key.
+- Ctrl + Esc `->` `
+  - Control + ESC to output Grave Accent (`)
+  - Instead of FN + ESC to output grave accent (`), which usually need two hands, you can do it with one hand with Ctrl + ESC
+- Shift + Esc `->` ~
+  - Shift + ESC to output Tilde (~)
+  - This rules is useful when there is no grave accent (`) & tilde (~) key on 60%/65% keyboard. So instead of FN + Shift + Esc to out put tilde (~) you can just use Shift + Esc
+
+# My rules for specific keyboards
+
+## tomy_keychron_k6.json
+Defines rules for Keychron K6 65% keyboard
+- Home `->` '
+  - Home key is mapped to grave accent (`) & tilde (~) key
+  - K6 does not have grave accent (`) & tilde (~) key and I need it, so I replace Home key with it.
+
+# Key Codes
 > Reference: [https://github.com/aerobounce/karabiner-elements-keycodes](https://github.com/aerobounce/karabiner-elements-keycodes)
+
 <pre>
 a                       == kHIDUsage_KeyboardA
 b                       == kHIDUsage_KeyboardB
@@ -195,7 +261,7 @@ right_alt               == kHIDUsage_KeyboardRightAlt
 right_gui               == kHIDUsage_KeyboardRightGUI
 </pre>
 
-# Extra
+## Extra
 <pre>
 vk_none
 
@@ -217,7 +283,7 @@ apple_top_case_display_brightness_decrement
 apple_top_case_display_brightness_increment
 </pre>
 
-# Aliases
+## Aliases
 <pre>
 left_option             == kHIDUsage_KeyboardLeftAlt
 left_command            == kHIDUsage_KeyboardLeftGUI
