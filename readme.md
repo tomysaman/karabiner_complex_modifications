@@ -40,41 +40,41 @@ Defines the rules for Hyper key which can give you a 2nd layer of keyboard layou
 	- Defines CapsLock key as Hyper key (which is Control + Command + Option + Shift)
 	- If you hold down CapsLock then you are triggering the Hyper key
 	- If you press CapsLock once only (tap it), then it works normally as CapsLock
-- `Hyper` + `1` -> `F1`, `Hyper` + `2` -> `F2`, ... `Hyper` + `0` -> `F10`, `Hyper` + dash (`-`) -> `F11`, and `Hyper` + equal (`=`) -> `F12`
+- `Hyper` + `1` -> `F1`, `Hyper` + `2` -> `F2`, ... `Hyper` + `0` -> `F10`, `Hyper` + `-` -> `F11`, and `Hyper` + `=` -> `F12`
   - Defines F1 - F12 with the number row keys
-- Hyper + Esc -> grave accent (`) & tilde (~) key
+- `Hyper` + `Esc` -> grave accent `` ` ``
   - A very common 60% keyboard mapping to use Esc key as Delete key
-- Hyper + WASD -> arrow keys
+- `Hyper` + `W` `A` `S` `D` -> arrow keys
   - W = Up, A = Left, S = Down, D = Right
-- Hyper + IJKL -> arrow keys
+- `Hyper` + `I` `J` `K` `L` -> arrow keys
   - I = Up, J = Left, K = Down, L = Right
-- Hyper + Q -> Home and Hyper + E -> End
-- Hyper + U -> Home and Hyper + O -> End
+- `Hyper` + `Q` -> `Home` and `Hyper` + `E` -> `End`
+- `Hyper` + `U` -> `Home` and `Hyper` + `O` -> `End`
   - The 2 rules above define the two keys around WASD & IJKL as Home key and End key 
-- Hyper + R -> PgUp and Hyper + F -> PgDn
-- Hyper + P -> PgUp and Hyper + semi-column (;) -> PgDn
+- `Hyper` + `R` -> `PgUp` and `Hyper` + `F` -> `PgDn`
+- `Hyper` + `P` -> `PgUp` and `Hyper` + `;` -> `PgDn`
   - The 2 rules above define the two keys on the right side of WASD & IJKL as PageUp key and PageDown key
-- Hyper + G -> Delete and Hyper + H -> Backspace
+- `Hyper` + `G` -> `Delete` and `Hyper` + `H` -> `Backspace`
   - This defines the keys next to your "home key markers" (F key and J key) as Delete key and Backspace key, with the one on the left (G key) being Delete key and the one on the right (H key) being Backspace key
-- Hyper + Backspace -> Delete
+- `Hyper` + `Backspace` -> `Delete`
   - A very common 60% keyboard mapping to use Backspace key as Delete key
-- Hyper + Z -> Mute, Hyper + X -> Volume-, and Hyper + C -> Volume+
-- Hyper + , -> Mute, Hyper + . -> Volume-, and Hyper + / -> Volume+
+- `Hyper` + `Z` -> Mute, `Hyper` + `X` -> Volume-, and `Hyper` + `C` -> Volume+
+- `Hyper` + `,` -> Mute, `Hyper` + `.` -> Volume-, and `Hyper` + `/` -> Volume+
   - The 2 rules above define the 3 keys to the side of left shift and right shift to be volume controls
-- Hyper + V -> PreviousTrack, Hyper + B -> Play/Pause, and Hyper + N -> NextTrack
+- `Hyper` + `V` -> PreviousTrack, `Hyper` + `B` -> Play/Pause, and `Hyper` + `N` -> NextTrack
   - This rules defines the 3 keys below the two "home key markers" (F key and J key) to be media playback controls
-- Hyper + open bracket ([) -> Screen Capture, Hyper + close bracket (]) -> Start Dictation, and Hyper + back slash (\\) -> Lock Screen
+- `Hyper` + `[` -> Screen Capture, `Hyper` + `]` -> Start Dictation, and `Hyper` + `\` -> Lock Screen
   - This defines the 3 keys to the right of P key to "works" likes PrintScreen, ScrollLock, and Pause keys. In my base rules they are Screen Capturing key, Start Dictation key, and Lock Screen key respectively
 
 ## tomy_60_percent.json
 Defines rules that useful for 60% and 65% keyboards.
-- Insert -> `
+- `Insert` -> `` ` ``
   - Insert key is mapped to grave accent (`) & tilde (~) key
   - Some 65% keyboards have insert key but no grave accent (`) & tilde (~) key. I need this rule as I use grave accent key much more often than insert key.
-- Ctrl + Esc -> `
+- `Ctrl` + `Esc` -> `` ` ``
   - Control + ESC to output Grave Accent (`)
   - Instead of FN + ESC to output grave accent (`), which usually need two hands, you can do it with one hand with Ctrl + ESC
-- Shift + Esc -> ~
+- `Shift` + `Esc` -> `~`
   - Shift + ESC to output Tilde (~)
   - This rules is useful when there is no grave accent (`) & tilde (~) key on 60%/65% keyboard. So instead of FN + Shift + Esc to out put tilde (~) you can just use Shift + Esc
 
@@ -82,7 +82,7 @@ Defines rules that useful for 60% and 65% keyboards.
 
 ## tomy_keychron_k6.json
 Defines rules for Keychron K6 65% keyboard
-- Home -> '
+- `Home` -> `` ` ``
   - Home key is mapped to grave accent (`) & tilde (~) key
   - K6 does not have grave accent (`) & tilde (~) key and I need it, so I replace Home key with it.
 
