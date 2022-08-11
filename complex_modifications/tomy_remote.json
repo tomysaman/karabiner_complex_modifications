@@ -1,0 +1,387 @@
+{
+	"_comment_dummy_1.0.0": "**********************************************************************************************************************************",
+	"_comment_title": 		"Tomy's personal Karabiner Element complex modifications rules (while in remote desktop app)",
+	"_comment_how_to": 		"Put this file into ~/.config/karabiner/assets/complex_modifications then add it in Karabiner preferences -> Complex Modifications",
+	"_comment_docs": 		"Karabiner documentation: https://karabiner-elements.pqrs.org/docs/ | All key codes: https://github.com/aerobounce/karabiner-elements-keycodes",
+	"_comment_faq_1.0": 	"Q: My changes in this file doesn't work? A: Karabiner currently does not have a way to pick up changes in file. You will need to manually remove the rules you changed and then add them back.",
+	"_comment_faq_2.0": 	"Q: How do I find out my keyboard device vendorID and productID? A: Open Karabiner Event Viewer and go to the Device tab, you can find the info there.",
+	"_comment_note": 		"***** NOTE ***** If you swap Option key and Command key mapping in MacOS keyboard setting, for Karabiner to trigger Cmd key you will have to send Opt key code, and for Karabiner to trigger Opt key you will have to send Cmd key code",
+	"_comment_dummy_1.0.1": "**********************************************************************************************************************************",
+	
+	"title": "Tomy's rules white in remote desktop",
+	"url": "https://github.com/tomysaman/karabiner_complex_modifications/tomy_remote.json",
+	"version": "1.0.0",
+	"author": "Tomy Saman (tomywutoto@gmail.com)",
+	"website": "https://github.com/tomysaman",
+	"json_url": "https://raw.githubusercontent.com/tomysaman/karabiner_complex_modifications/master/complex_modifications/tomy_remote.json",
+	"import_url": "karabiner://karabiner/assets/complex_modifications/import?url=https://raw.githubusercontent.com/tomysaman/karabiner_complex_modifications/master/complex_modifications/tomy_remote.json",
+	"gallery_url": "https://ke-complex-modifications.pqrs.org/#personal-settings",
+	"repo": "https://github.com/tomysaman/karabiner_complex_modifications",
+	"rules": [
+
+		{
+			"_comment_dummy_2.0.0": "**************************************************************************************************",
+			"description": 			"[REMOTE] Swap Command key and Control key when used with N,S,W keys (while using remote desktop app)",
+			"_comment_dummy_2.0.1": "**************************************************************************************************",
+			"manipulators": [
+				{
+					"description": "Cmd + N = Ctrl + N (left) - for creating a new file/tab",
+					"type": "basic",
+					"from": {
+						"key_code": "n",
+						"modifiers": {
+							"mandatory": [
+								"left_command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "n",
+							"modifiers": [
+								"left_control"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.microsoft\\.rdc$",
+								"^com\\.microsoft\\.rdc\\.",
+								"^net\\.sf\\.cord$",
+								"^com\\.thinomenon\\.RemoteDesktopConnection$",
+								"^com\\.itap-mobile\\.qmote$",
+								"^com\\.nulana\\.remotixmac$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer\\.",
+								"^com\\.teamviewer\\.TeamViewer$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.2X\\.Client\\.Mac$",
+								"^com\\.OpenText\\.Exceed-TurboX-Client$",
+								"^com\\.realvnc\\.vncviewer$",
+								"^com\\.citrix\\.receiver\\.icaviewer",
+								"^com\\.vmware\\.fusion$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.vmware\\.view$",
+								"^com\\.parallels\\.desktop$",
+								"^com\\.parallels\\.vm$",
+								"^com\\.parallels\\.desktop\\.console$",
+								"^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+								"^com\\.citrix\\.XenAppViewer$",
+								"^com\\.vmware\\.proxyApp\\.",
+								"^com\\.parallels\\.winapp\\.",
+								"^com\\.utmapp\\.UTM$",
+								"^com\\.geekspiff\\.chickenofthevnc$",
+								"^net\\.sourceforge\\.chicken$",
+								"^de\\.jinx\\.JollysFastVNC\\.",
+								"^com\\.realvnc\\.vncviewer\\."
+							]
+						}
+					]
+				},
+				{
+					"description": "Cmd + N = Ctrl + N (right) - for creating a new file/tab",
+					"type": "basic",
+					"from": {
+						"key_code": "n",
+						"modifiers": {
+							"mandatory": [
+								"right_command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "n",
+							"modifiers": [
+								"right_control"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.microsoft\\.rdc$",
+								"^com\\.microsoft\\.rdc\\.",
+								"^net\\.sf\\.cord$",
+								"^com\\.thinomenon\\.RemoteDesktopConnection$",
+								"^com\\.itap-mobile\\.qmote$",
+								"^com\\.nulana\\.remotixmac$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer\\.",
+								"^com\\.teamviewer\\.TeamViewer$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.2X\\.Client\\.Mac$",
+								"^com\\.OpenText\\.Exceed-TurboX-Client$",
+								"^com\\.realvnc\\.vncviewer$",
+								"^com\\.citrix\\.receiver\\.icaviewer",
+								"^com\\.vmware\\.fusion$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.vmware\\.view$",
+								"^com\\.parallels\\.desktop$",
+								"^com\\.parallels\\.vm$",
+								"^com\\.parallels\\.desktop\\.console$",
+								"^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+								"^com\\.citrix\\.XenAppViewer$",
+								"^com\\.vmware\\.proxyApp\\.",
+								"^com\\.parallels\\.winapp\\.",
+								"^com\\.utmapp\\.UTM$",
+								"^com\\.geekspiff\\.chickenofthevnc$",
+								"^net\\.sourceforge\\.chicken$",
+								"^de\\.jinx\\.JollysFastVNC\\.",
+								"^com\\.realvnc\\.vncviewer\\."
+							]
+						}
+					]
+				},
+
+				{
+					"description": "Cmd + S = Ctrl + S (left) - for saving a file",
+					"type": "basic",
+					"from": {
+						"key_code": "s",
+						"modifiers": {
+							"mandatory": [
+								"left_command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "s",
+							"modifiers": [
+								"left_control"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.microsoft\\.rdc$",
+								"^com\\.microsoft\\.rdc\\.",
+								"^net\\.sf\\.cord$",
+								"^com\\.thinomenon\\.RemoteDesktopConnection$",
+								"^com\\.itap-mobile\\.qmote$",
+								"^com\\.nulana\\.remotixmac$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer\\.",
+								"^com\\.teamviewer\\.TeamViewer$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.2X\\.Client\\.Mac$",
+								"^com\\.OpenText\\.Exceed-TurboX-Client$",
+								"^com\\.realvnc\\.vncviewer$",
+								"^com\\.citrix\\.receiver\\.icaviewer",
+								"^com\\.vmware\\.fusion$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.vmware\\.view$",
+								"^com\\.parallels\\.desktop$",
+								"^com\\.parallels\\.vm$",
+								"^com\\.parallels\\.desktop\\.console$",
+								"^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+								"^com\\.citrix\\.XenAppViewer$",
+								"^com\\.vmware\\.proxyApp\\.",
+								"^com\\.parallels\\.winapp\\.",
+								"^com\\.utmapp\\.UTM$",
+								"^com\\.geekspiff\\.chickenofthevnc$",
+								"^net\\.sourceforge\\.chicken$",
+								"^de\\.jinx\\.JollysFastVNC\\.",
+								"^com\\.realvnc\\.vncviewer\\."
+							]
+						}
+					]
+				},
+				{
+					"description": "Cmd + S = Ctrl + S (right) - for saving a file",
+					"type": "basic",
+					"from": {
+						"key_code": "s",
+						"modifiers": {
+							"mandatory": [
+								"right_command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "s",
+							"modifiers": [
+								"right_control"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.microsoft\\.rdc$",
+								"^com\\.microsoft\\.rdc\\.",
+								"^net\\.sf\\.cord$",
+								"^com\\.thinomenon\\.RemoteDesktopConnection$",
+								"^com\\.itap-mobile\\.qmote$",
+								"^com\\.nulana\\.remotixmac$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer\\.",
+								"^com\\.teamviewer\\.TeamViewer$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.2X\\.Client\\.Mac$",
+								"^com\\.OpenText\\.Exceed-TurboX-Client$",
+								"^com\\.realvnc\\.vncviewer$",
+								"^com\\.citrix\\.receiver\\.icaviewer",
+								"^com\\.vmware\\.fusion$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.vmware\\.view$",
+								"^com\\.parallels\\.desktop$",
+								"^com\\.parallels\\.vm$",
+								"^com\\.parallels\\.desktop\\.console$",
+								"^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+								"^com\\.citrix\\.XenAppViewer$",
+								"^com\\.vmware\\.proxyApp\\.",
+								"^com\\.parallels\\.winapp\\.",
+								"^com\\.utmapp\\.UTM$",
+								"^com\\.geekspiff\\.chickenofthevnc$",
+								"^net\\.sourceforge\\.chicken$",
+								"^de\\.jinx\\.JollysFastVNC\\.",
+								"^com\\.realvnc\\.vncviewer\\."
+							]
+						}
+					]
+				},
+
+				{
+					"description": "Cmd + W = Ctrl + W (left) - for closing a file/tab",
+					"type": "basic",
+					"from": {
+						"key_code": "w",
+						"modifiers": {
+							"mandatory": [
+								"left_command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "w",
+							"modifiers": [
+								"left_control"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.microsoft\\.rdc$",
+								"^com\\.microsoft\\.rdc\\.",
+								"^net\\.sf\\.cord$",
+								"^com\\.thinomenon\\.RemoteDesktopConnection$",
+								"^com\\.itap-mobile\\.qmote$",
+								"^com\\.nulana\\.remotixmac$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer\\.",
+								"^com\\.teamviewer\\.TeamViewer$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.2X\\.Client\\.Mac$",
+								"^com\\.OpenText\\.Exceed-TurboX-Client$",
+								"^com\\.realvnc\\.vncviewer$",
+								"^com\\.citrix\\.receiver\\.icaviewer",
+								"^com\\.vmware\\.fusion$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.vmware\\.view$",
+								"^com\\.parallels\\.desktop$",
+								"^com\\.parallels\\.vm$",
+								"^com\\.parallels\\.desktop\\.console$",
+								"^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+								"^com\\.citrix\\.XenAppViewer$",
+								"^com\\.vmware\\.proxyApp\\.",
+								"^com\\.parallels\\.winapp\\.",
+								"^com\\.utmapp\\.UTM$",
+								"^com\\.geekspiff\\.chickenofthevnc$",
+								"^net\\.sourceforge\\.chicken$",
+								"^de\\.jinx\\.JollysFastVNC\\.",
+								"^com\\.realvnc\\.vncviewer\\."
+							]
+						}
+					]
+				},
+				{
+					"description": "Cmd + W = Ctrl + W (right) - for closing a file/tab",
+					"type": "basic",
+					"from": {
+						"key_code": "w",
+						"modifiers": {
+							"mandatory": [
+								"right_command"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "w",
+							"modifiers": [
+								"right_control"
+							]
+						}
+					],
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^com\\.microsoft\\.rdc$",
+								"^com\\.microsoft\\.rdc\\.",
+								"^net\\.sf\\.cord$",
+								"^com\\.thinomenon\\.RemoteDesktopConnection$",
+								"^com\\.itap-mobile\\.qmote$",
+								"^com\\.nulana\\.remotixmac$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer$",
+								"^com\\.p5sys\\.jump\\.mac\\.viewer\\.",
+								"^com\\.teamviewer\\.TeamViewer$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.2X\\.Client\\.Mac$",
+								"^com\\.OpenText\\.Exceed-TurboX-Client$",
+								"^com\\.realvnc\\.vncviewer$",
+								"^com\\.citrix\\.receiver\\.icaviewer",
+								"^com\\.vmware\\.fusion$",
+								"^com\\.vmware\\.horizon$",
+								"^com\\.vmware\\.view$",
+								"^com\\.parallels\\.desktop$",
+								"^com\\.parallels\\.vm$",
+								"^com\\.parallels\\.desktop\\.console$",
+								"^org\\.virtualbox\\.app\\.VirtualBoxVM$",
+								"^com\\.citrix\\.XenAppViewer$",
+								"^com\\.vmware\\.proxyApp\\.",
+								"^com\\.parallels\\.winapp\\.",
+								"^com\\.utmapp\\.UTM$",
+								"^com\\.geekspiff\\.chickenofthevnc$",
+								"^net\\.sourceforge\\.chicken$",
+								"^de\\.jinx\\.JollysFastVNC\\.",
+								"^com\\.realvnc\\.vncviewer\\."
+							]
+						}
+					]
+				}
+			]
+		}
+
+	]
+}

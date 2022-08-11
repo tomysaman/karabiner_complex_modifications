@@ -1,6 +1,6 @@
 # Karabiner-Elements complex modification rules
 
-My personal Karabiner-Elements (KE for short) complex modification rules.
+[Karabiner-Elements](https://karabiner-elements.pqrs.org/) is a Mac app that lets you define custom keyboard mappings and layouts. This repository is my personal Karabiner-Elements (KE for short) complex modification rules.
 
 To use, place the json files in `complex_modifications` folder into your KB rules folder below, and then add them in the KE Preferences -> Complex Modifications.
 > `~/.config/karabiner/assets/complex_modifications/`
@@ -85,6 +85,23 @@ Defines rules for Keychron K6 65% keyboard
 - `Home` -> `` ` ``
   - Home key is mapped to grave accent (`) & tilde (~) key
   - K6 does not have grave accent (`) & tilde (~) key and I need it, so I replace Home key with it.
+
+# My rules when running specific apps
+
+## tomy_remote.json
+Defines rules when inside a remote desktop session
+- **Notes**
+  - These are for when running a remote desktop session in a Windows environment
+  - I did not include a rule to swap Command key and Control key, due to I already have a "base" rule that swap Command key and Option key
+  - I want my basic Mac text editing keyboard shortcuts to work in Windows
+    - Cmd + C, Cmd + V, Cmd + X, Cmd + A are all working by default in Windows Remote Desktop client, so I didn't include them
+    - The rules adds Cmd + N, Cmd + S, Cmd + W
+- `Cmd` + `N` -> `Ctrl` + `N`
+  - Command + N to create a new file/tab
+- `Cmd` + `S` -> `Ctrl` + `S`
+  - Command + S to save a file
+- `Cmd` + `W` -> `Ctrl` + `W`
+  - Command + W to close a file/tab
 
 # Key Codes
 > Reference: [https://github.com/aerobounce/karabiner-elements-keycodes](https://github.com/aerobounce/karabiner-elements-keycodes)
