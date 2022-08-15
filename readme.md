@@ -21,6 +21,9 @@ Q: My changes in json file doesn't work?
 Q: How do I find out my keyboard device vendorID and productID?
 > A: Open Karabiner Event Viewer and go to the Device tab, you can find the info there.
 
+Q: Karabiner-Elements does not work on my Bluetooth keyboard?
+> A: By default Karabiner Elements is not enabled to control mouse. When a Bluetooth keyboard is connected to a Mac, the connection is usually considered as a combo of keyboard + mouse connection, hence it is not enabled to be controlled by KE by default. You can go to the Preferences -> Deveices and then tick the "modify event" checkbox for the Bluetooth keyboard/connection to enable it.
+
 # My rules
 
 ## tomy_base.json
@@ -102,6 +105,7 @@ Defines rules when inside a remote desktop session
   - Command + S to save a file
 - `Cmd` + `W` -> `Ctrl` + `W`
   - Command + W to close a file/tab
+  - This also helps user not to accidentally close remote desktop session
 
 # Key Codes
 > Reference: [https://github.com/aerobounce/karabiner-elements-keycodes](https://github.com/aerobounce/karabiner-elements-keycodes)
