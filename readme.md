@@ -68,6 +68,8 @@ Defines the rules for Hyper key which can give you a 2nd layer of keyboard layou
   - This rules defines the 3 keys below the two "home key markers" (F key and J key) to be media playback controls
 - `Hyper` + `[` -> Screen Capture, `Hyper` + `]` -> Start Dictation, and `Hyper` + `\` -> Lock Screen
   - This defines the 3 keys to the right of P key to "works" likes PrintScreen, ScrollLock, and Pause keys. In my base rules they are Screen Capturing key, Start Dictation key, and Lock Screen key respectively
+- `Hyper` + `'` -> `Insert`
+  - It just makes sense to me to have quote works as Insert key as it is under the ScreenShot `[` , ScrollLock `]`, and PageBreak `\` keys mapping I defined above
 
 ## tomy_60_percent.json
 Defines rules that useful for 60% and 65% keyboards.

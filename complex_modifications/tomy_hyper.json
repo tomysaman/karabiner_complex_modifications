@@ -1072,7 +1072,7 @@
 
 		{
 			"_comment_dummy_2.0.0": "**************************************************************************************************",
-			"description": 			"[Hyper] + [ = PrtScr (Screen Capture) && [Hyper] + ] = ScrLck (Dictation) && [Hyper] + \\ = Pause (Lock screen)",
+			"description": 			"[Hyper] + [ = PrtScr (Screen Capture) && [Hyper] + ] = ScrLck (Dictation) && [Hyper] + \\ = Pause (Lock screen) && [Hyper] + ' = Insert",
 			"_comment_dummy_2.0.1": "**************************************************************************************************",
 			"manipulators": [
 				{
@@ -1152,6 +1152,29 @@
 								"left_command",
 								"left_control"
 							]
+						}
+					]
+				},
+				{
+					"description": "Hyper + ' (single quote) = Insert",
+					"type": "basic",
+					"from": {
+						"key_code": "quote",
+						"modifiers": {
+							"mandatory": [
+								"right_command",
+								"right_control",
+								"right_option",
+								"right_shift"
+							],
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "insert"
 						}
 					]
 				}
