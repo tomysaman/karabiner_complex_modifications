@@ -1,0 +1,297 @@
+[
+  [
+    {
+      "c": "#d1a145",
+      "fa": [
+        2
+      ]
+    },
+    "Esc\n\n\n\n\n\n\n\n\n~\n`",
+    {
+      "c": "#ced14d",
+      "fa": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    "!\n1\n\n\nF1\n\n\n\n\nBrightness Down",
+    "@\n2\n\n\nF2\n\n\n\n\nBrightness Up",
+    "#\n3\n\n\nF3\n\n\n\n\nMission Control",
+    "$\n4\n\n\nF4\n\n\n\n\nLaunch Pad",
+    "%\n5\n\n\nF5\n\n\n\n\nKB Illu Up",
+    "^\n6\n\n\nF6\n\n\n\n\nKB illu Down",
+    {
+      "fa": [
+        1,
+        2
+      ]
+    },
+    "&\n7\n\n\nF7\n\n\n\n\nPrev",
+    "*\n8\n\n\nF8\n\n\n\n\nPlay",
+    "(\n9\n\n\nF9\n\n\n\n\nNext",
+    ")\n0\n\n\nF10\n\n\n\n\nMute",
+    "_\n-\n\n\nF11\n\n\n\n\nVol -",
+    "+\n=\n\n\nF12\n\n\n\n\nVol +",
+    {
+      "c": "#eba0d7",
+      "fa": [
+        2
+      ],
+      "w": 2
+    },
+    "Backspace\n\n\n\n\n\n\n\n\nDel"
+  ],
+  [
+    {
+      "c": "#cccccc",
+      "f": 3,
+      "w": 1.5
+    },
+    "Tab",
+    {
+      "c": "#47bf9c"
+    },
+    "Q\n\n\n\n\n\n\n\n\nHome",
+    {
+      "fa": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ]
+    },
+    "W\n\n\n\n\n\n\n\n\n↑",
+    {
+      "fa": [
+        2
+      ]
+    },
+    "E\n\n\n\n\n\n\n\n\nEnd",
+    "R\n\n\n\n\n\n\n\n\nPgUp",
+    {
+      "c": "#cccccc",
+      "f": 3
+    },
+    "T",
+    {
+      "f": 3
+    },
+    "Y",
+    {
+      "c": "#47bf9c"
+    },
+    "U\n\n\n\n\n\n\n\n\nHome",
+    {
+      "fa": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ]
+    },
+    "I\n\n\n\n\n\n\n\n\n↑",
+    {
+      "fa": [
+        2
+      ]
+    },
+    "O\n\n\n\n\n\n\n\n\nEnd",
+    "P\n\n\n\n\n\n\n\n\nPgUp",
+    {
+      "c": "#87a1ff",
+      "fa": [
+        2,
+        2
+      ]
+    },
+    "{\n[\n\n\n\n\n\n\n\nScrShot",
+    "}\n]\n\n\n\n\n\n\n\nDictate",
+    {
+      "w": 1.5
+    },
+    "|\n\\\n\n\n\n\n\n\n\nScrLck"
+  ],
+  [
+    {
+      "c": "#f53131",
+      "t": "#000000\n\n\n\n\n\n\n\n\n#ffffff\n#ffffff",
+      "fa": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0
+      ],
+      "w": 1.75
+    },
+    "CapLck\n\n\n\n\n\n\n\n\nHyper",
+    {
+      "c": "#47bf9c",
+      "t": "#000000",
+      "fa": [
+        2,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ]
+    },
+    "A\n\n\n\n\n\n\n\n\n←",
+    "S\n\n\n\n\n\n\n\n\n↓",
+    "D\n\n\n\n\n\n\n\n\n→",
+    {
+      "fa": [
+        2
+      ]
+    },
+    "F\n\n\n\n\n\n\n\n\nPgDn",
+    {
+      "c": "#eba0d7"
+    },
+    "G\n\n\n\n\n\n\n\n\nDel",
+    "H\n\n\n\n\n\n\n\n\nBack space",
+    {
+      "c": "#47bf9c",
+      "fa": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ]
+    },
+    "J\n\n\n\n\n\n\n\n\n←",
+    "K\n\n\n\n\n\n\n\n\n↓",
+    "L\n\n\n\n\n\n\n\n\n→",
+    {
+      "fa": [
+        2,
+        2
+      ]
+    },
+    ":\n;\n\n\n\n\n\n\n\nPgDn",
+    {
+      "c": "#87a1ff"
+    },
+    "\"\n'\n\n\n\n\n\n\n\nInsert",
+    {
+      "c": "#cccccc",
+      "f": 3,
+      "w": 2.25
+    },
+    "Enter"
+  ],
+  [
+    {
+      "c": "#d1a145",
+      "w": 2.25
+    },
+    "Shift\n\n\n\n\n\n\n\n\nShift + Esc = ~",
+    {
+      "c": "#3cd64d"
+    },
+    "Z\n\n\n\n\n\n\n\n\nMute",
+    "X\n\n\n\n\n\n\n\n\nVol -",
+    "C\n\n\n\n\n\n\n\n\nVol +",
+    "V\n\n\n\n\n\n\n\n\nPrev",
+    "B\n\n\n\n\n\n\n\n\nPlay",
+    "N\n\n\n\n\n\n\n\n\nNext",
+    {
+      "c": "#cccccc",
+      "f": 3
+    },
+    "M",
+    {
+      "c": "#3cd64d"
+    },
+    "<\n,\n\n\n\n\n\n\n\nMute",
+    ">\n.\n\n\n\n\n\n\n\nVol -",
+    "?\n/\n\n\n\n\n\n\n\nVol +",
+    {
+      "c": "#cccccc",
+      "f": 3,
+      "w": 2.75
+    },
+    "Shift"
+  ],
+  [
+    {
+      "c": "#d1a145",
+      "w": 1.25
+    },
+    "Ctrl\n\n\n\n\n\n\n\n\n\nCtrl + Esc = `",
+    {
+      "c": "#cccccc",
+      "f": 3,
+      "w": 1.25
+    },
+    "Opt",
+    {
+      "f": 3,
+      "w": 1.25
+    },
+    "Cmd",
+    {
+      "a": 7,
+      "w": 6.25
+    },
+    "",
+    {
+      "a": 4,
+      "f": 3,
+      "w": 1.25
+    },
+    "Cmd",
+    {
+      "f": 3,
+      "w": 1.25
+    },
+    "Opt",
+    {
+      "f": 3,
+      "w": 1.25
+    },
+    "FN",
+    {
+      "f": 3,
+      "w": 1.25
+    },
+    "Ctrl"
+  ]
+]

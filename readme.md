@@ -39,6 +39,9 @@ Defines the base rules that useful for any kind of keyboards.
 
 ## tomy_hyper.json
 Defines the rules for Hyper key which can give you a 2nd layer of keyboard layout for various functionality.
+
+![Hyper key layout](assets/keyboard-layout-editor-hyper-60.jpg)
+
 - `CapsLock` -> `Hyper` = `Ctrl` + `Cmd` + `Opt` + `Shift`
 	- Defines CapsLock key as Hyper key (which is Control + Command + Option + Shift)
 	- If you hold down CapsLock then you are triggering the Hyper key
