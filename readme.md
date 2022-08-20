@@ -28,6 +28,9 @@ Q: Karabiner-Elements does not work on my Bluetooth keyboard?
 
 ## tomy_base.json
 Defines the base rules that useful for any kind of keyboards.
+
+![Base rules](assets/keyboard-layout-editor-base.jpg)
+
 - `CMD` <-> `OPT`
   - Swap Command and Option keys
 - `PrtScr` -> Screen capture
@@ -76,6 +79,9 @@ Defines the rules for Hyper key which can give you a 2nd layer of keyboard layou
 
 ## tomy_60_percent.json
 Defines rules that useful for 60% and 65% keyboards.
+
+![Rules for 60% / 65% keyboards](assets/keyboard-layout-editor-60.jpg)
+
 - `Insert` -> `` ` ``
   - Insert key is mapped to grave accent (`) & tilde (~) key
   - Some 65% keyboards have insert key but no grave accent (`) & tilde (~) key. I need this rule as I use grave accent key much more often than insert key.
