@@ -108,7 +108,7 @@ Defines rules when inside a remote desktop session
   - These are for when running a remote desktop session in a Windows environment
   - I did not include a rule to swap Command key and Control key, due to I already have a "base" rule that swap Command key and Option key
   - I want my basic Mac text editing keyboard shortcuts to work in Windows
-    - Cmd + C, Cmd + V, Cmd + X, Cmd + A are all working by default in Windows Remote Desktop client, so I didn't include them
+    - `Cmd + C`, `Cmd + V`, `Cmd + X`, `Cmd + A` are all working by default in Windows Remote Desktop client, so I didn't include them
     - The rules adds Cmd + N, Cmd + S, Cmd + W
 - `Cmd` + `N` -> `Ctrl` + `N`
   - Command + N to create a new file/tab
