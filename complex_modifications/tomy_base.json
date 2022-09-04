@@ -121,6 +121,7 @@
 		{
 			"_comment_dummy_2.0.0": "**************************************************************************************************",
 			"description": 			"[BASE] ScreenLock key to start dictation",
+			"_comment_note":		"***** NOTE ***** You need to set pressing Fn/Globe key twice to start dictation (you can set it in Settings -> Keyboard -> Keyboard)",
 			"_comment_dummy_2.0.1": "**************************************************************************************************",
 			"manipulators": [
 				{
