@@ -118,7 +118,7 @@ Defines rules when inside a remote desktop session
   - Command + S to save a file
 - `Cmd` + `W` -> `Ctrl` + `W`
   - Command + W to close a file/tab
-  - This also helps user not to accidentally close remote desktop session
+  - This also prevent users from accidentally close the remote desktop session
 
 # Key Codes
 > Reference: [https://github.com/aerobounce/karabiner-elements-keycodes](https://github.com/aerobounce/karabiner-elements-keycodes)
