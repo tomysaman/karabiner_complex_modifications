@@ -27,7 +27,7 @@ Q: Karabiner-Elements does not work on my Bluetooth keyboard?
 # My rules
 
 ## tomy_base.json
-Defines the base rules that useful for any kind of keyboards.
+Defines the base rules that are useful for any keyboard layouts.
 
 ![Base rules](assets/keyboard-layout-editor-base.jpg)
 
