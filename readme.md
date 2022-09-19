@@ -11,7 +11,7 @@ To use, place the json files in `complex_modifications` folder into your KB rule
 
 # Notes
 
-If you swap Option key and Command key mapping in your MacOS keyboard setting for KE keyboard ("Karabiner DriverKit VirtualHIDKeyboard"), for KE to trigger Command key you will have to send Option key code, and for KE to trigger Option key you will have to send Command key code. For json files in this repo to work, you should NOT swap CMD and OPT keys.
+If you swap Option key and Command key mapping in your MacOS keyboard setting for KE keyboard ("Karabiner DriverKit VirtualHIDKeyboard"); for KE to trigger Command key you will have to send Option key code, and for KE to trigger Option key you will have to send Command key code. You should NOT swap CMD and OPT key in the MacOS keyboard setting when using the json files in this repo.
 
 # FAQs
 
