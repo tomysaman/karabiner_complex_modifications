@@ -11,7 +11,7 @@ To use, place the json files in `complex_modifications` folder into your KB rule
 
 # Notes
 
-If you swap Option key and Command key mapping in your MacOS keyboard setting for KE keyboard ("Karabiner DriverKit VirtualHIDKeyboard"); for KE to trigger Command key you will have to send Option key code, and for KE to trigger Option key you will have to send Command key code. You should NOT swap CMD and OPT key in the MacOS keyboard setting when using the json files in this repo.
+If you swap Option key and Command key mapping in your MacOS keyboard setting for KE keyboard ("Karabiner DriverKit VirtualHIDKeyboard"); for KE to trigger Command key you will have to send Option key code, and for KE to trigger Option key you will have to send Command key code. To use the json files in this repo, you should NOT swap CMD and OPT key in the MacOS keyboard setting.
 
 # FAQs
 
@@ -53,7 +53,7 @@ Defines the rules for Hyper key which can give you a 2nd layer of keyboard layou
 - `Hyper` + `1` -> `F1`, `Hyper` + `2` -> `F2`, ... `Hyper` + `0` -> `F10`, `Hyper` + `-` -> `F11`, and `Hyper` + `=` -> `F12`
   - Defines F1 - F12 with the number row keys
 - `Hyper` + `Esc` -> grave accent `` ` ``
-  - A very common 60% keyboard mapping to use Esc key as Delete key
+  - A very common 60% keyboard mapping to use Esc key as grave accent/tilda key
 - `Hyper` + `W` `A` `S` `D` -> arrow keys
   - W = Up, A = Left, S = Down, D = Right
 - `Hyper` + `I` `J` `K` `L` -> arrow keys
@@ -74,7 +74,7 @@ Defines the rules for Hyper key which can give you a 2nd layer of keyboard layou
 - `Hyper` + `V` -> PreviousTrack, `Hyper` + `B` -> Play/Pause, and `Hyper` + `N` -> NextTrack
   - This rules defines the 3 keys below the two "home key markers" (F key and J key) to be media playback controls
 - `Hyper` + `[` -> Screen Capture, `Hyper` + `]` -> Start Dictation, and `Hyper` + `\` -> Lock Screen
-  - This defines the 3 keys to the right of P key to "works" likes PrintScreen, ScrollLock, and Pause keys. In my base rules they are Screen Capturing key, Start Dictation key, and Lock Screen key respectively
+  - This defines the 3 keys to the right of P key to be PrintScreen, ScrollLock, and Pause keys. In my base rules they work as Screen Capturing key, Start Dictation key, and Lock Screen key respectively
   - Note: you need to set pressing Fn/Globe key twice to start dictation (you can set it in Settings -> Keyboard -> Keyboard)
 - `Hyper` + `'` -> `Insert`
   - It just makes sense to me to have quote works as Insert key as it is under the ScreenShot `[` , ScrollLock `]`, and PageBreak `\` keys mapping I defined above
