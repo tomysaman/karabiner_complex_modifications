@@ -16,7 +16,7 @@ If you swap Option key and Command key mapping in your MacOS keyboard setting fo
 # FAQs
 
 Q: My changes in json file doesn't work?
-> A: KE currently does not have a way to pick up changes in rule json files. You will need to manually remove the rules from within KE and then add them again.
+> A: KE currently does not pick up changes in rule json files on-the-fly. You will need to manually remove the rules from within KE and then add them again.
 
 Q: How do I find out my keyboard device vendorID and productID?
 > A: Open Karabiner Event Viewer and go to the Device tab, you can find the info there.
